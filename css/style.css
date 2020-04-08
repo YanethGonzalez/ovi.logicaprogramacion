@@ -207,47 +207,6 @@ iframe{
     color: #fff;
 }
 
-/*Clase para pagina autores ===================================>*/
-
-.autores{
-    width: 280px;
-    height:320px;
-    background: #fff;
-    box-shadow:  2px 4px 15px -4px rgba(0,0,0,0.75);
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 7px;
-    padding: 5px 5px 15px 5px;
-}
-
-.autores .nombre{
-    font-size: 17px;
-    font-weight: bold;
-    color: #444;
-    text-align: center;
-    width: 100%;
-}
-
-.autores img{
-    width:150px;
-    height: 190px;
-}
-
-.autores p{
-    width: 100%;
-    text-align: center;
-    margin-bottom: -10px;
-    padding: 0;
-}
-
-.autores .codigo{
-    color: #666;
-    font-weight: bold;
-}
-
 
 footer{
     background: #333 url(../img/logoUNADMobile-HD.png) no-repeat top 30px left 10%;
