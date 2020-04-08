@@ -142,18 +142,21 @@ nav#menu_principal{
     overflow: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     /*align-items: center;*/ /*Centra contenido en vertical*/   
 }
 
 .contenido-izquierdo{
-    margin: 0px 5px 0px 0px;
+    margin: 0px 10px 0px 0px;
     width: 50%;
     min-height: 200px;
     height: auto;
     float: left;
     padding: 0px 20px;
-    border: 1px solid darkslategrey;
-    background: #F3F3F2;
+    /*border: 1px solid darkslategrey;*/
+    background: #fff;
+    box-shadow:  2px 4px 15px -4px rgba(0,0,0,0.75);
+
 }
 
 .contenido-izquierdo h2{
@@ -173,6 +176,7 @@ nav#menu_principal{
     float: left;
     margin: 0px 5px 0px 0px;
     padding: 50px 0px 0px 0px;
+    
 }
 
 .video{
@@ -202,6 +206,49 @@ iframe{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
+
+/*Clase para pagina autores ===================================>*/
+
+.autores{
+    width: 280px;
+    height:320px;
+    background: #fff;
+    box-shadow:  2px 4px 15px -4px rgba(0,0,0,0.75);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    padding: 5px 5px 15px 5px;
+}
+
+.autores .nombre{
+    font-size: 17px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    width: 100%;
+}
+
+.autores img{
+    width:150px;
+    height: 190px;
+}
+
+.autores p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+.autores .codigo{
+    color: #666;
+    font-weight: bold;
+}
+
+
 footer{
     background: #333 url(../img/logoUNADMobile-HD.png) no-repeat top 30px left 10%;
     background-size: 155px 38px;
